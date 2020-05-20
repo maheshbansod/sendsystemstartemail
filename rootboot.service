@@ -1,0 +1,9 @@
+[Unit]
+Description=Run startup scripts
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/sh /root/scripts/boot.sh
+
+[Install]
+WantedBy=multi-user.target
