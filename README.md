@@ -11,7 +11,7 @@ sh setup.sh
 ```
 
 ## Usage
-If you have installed this then the script will be run everytime your system boots. To run the python file without installation, edit the file so that it takes `creds.data` from a different location(current directory) instead of `/root/scripts`.
+If you have installed this then the script will be run everytime your system boots. To run the python file without installation, edit the file so that it takes `creds.data` from a different location(current directory) instead of `/root/scripts` and make sure to create creds.data(first line has email address, second line has password).
 
 ## License
 See LICENSE
